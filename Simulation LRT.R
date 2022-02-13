@@ -1,10 +1,10 @@
-#Note: this code is organized for the data presented in the associated paper, but can be reformulated for any other data/hypothesis structure for which like likelihood can be calculated.
+#Note: this code is organized for the data presented in the associated paper, but can be reformulated for any other data/hypothesis structure for which likelihood can be calculated.
 # General order of operations:
-         # 1) Set up data
-         # 2) Combine models
-# 3) Find optimum combination of models to maximize likelihood
-# 4) Identify weights
-# 5) Calculate new predictions
+  # 1) Set up data
+  # 2) Combine models
+  # 3) Find optimum combination of models to maximize likelihood
+  # 4) Identify weights
+  # 5) Calculate new predictions
  
 ###################  Step 1  ####################
 obs.x<- #vector of ‘successes’ in n trials
